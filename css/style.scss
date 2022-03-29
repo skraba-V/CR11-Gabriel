@@ -1,0 +1,138 @@
+* {
+    max-width: 100%;  
+  }
+  
+.bbc {
+    background-color: rgb(17, 0, 0);
+}
+
+
+.bbt {
+    padding-bottom: 3rem;
+}
+
+.nsl {
+    padding-bottom: 2rem;
+}
+
+.lit {
+    background-color: rgba(160, 255, 8, 0.377);
+}
+
+.nsl2 {
+    padding-top: 2rem;
+}
+
+.caption {
+    background-image: url("../pictures/backj.jpeg");
+    width: 100% auto;
+    height: 40rem;
+    max-width: 100%;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: 100% 50rem;
+    background-position: center;
+    color: rgb(249, 253, 5);
+    text-transform: uppercase;
+}
+
+.caption h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    
+}
+
+
+.heading {
+    font-size: 1.9rem;
+    font-weight: 700;
+    margin-block: 2rem;
+    text-transform: uppercase;
+}
+
+
+.boox {
+    width: 200px;
+    height: 200px;
+}
+
+.im-size {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    border: solid 1px rgb(241, 0, 0);
+    box-shadow: .1rem .1rem .8rem white;
+    padding: 0.2rem;
+    background-size: cover;
+}
+
+.eddt, .eddt:hover {
+    color: bisque;
+  text-decoration: none;
+}
+
+.dit {
+    color: bisque;
+}
+
+.dimgboox {
+    width: 300px;
+    height: 300px;
+}
+
+
+
+.dimg {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    border: solid 1px rgb(241, 0, 0);
+    box-shadow: .1rem .1rem .8rem rgb(0, 0, 0);
+    padding: 0.2rem;
+    background-size: cover;
+}
+
+
+.ditimg {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    border: solid 1px rgb(241, 0, 0);
+    box-shadow: .1rem .1rem .8rem rgb(255, 255, 255);
+    padding: 0.2rem;
+    background-size: cover;
+}
+
+
+.button {
+    background-color: rgb(0, 0, 255); 
+    border: none;
+    color: bisque;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: rgb(255, 0, 0);
+}
+  
+
+.sizes {
+    background-color: rgb(49, 97, 1);
+    margin: 3rem;
+    border-radius: 30px;
+}
