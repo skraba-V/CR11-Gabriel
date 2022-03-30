@@ -1,4 +1,9 @@
 <?php
+session_start();
+if (!isset($_SESSION['adm'])) {
+    header("Location: ../home.php");
+    exit;
+}
  
 require_once '../components/db_connect.php';
 
