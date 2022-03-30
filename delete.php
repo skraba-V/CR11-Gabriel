@@ -3,6 +3,14 @@ require_once './components/db_connect.php';
 ini_set('display_errors', 1); 
 ini_set('display_startup_errors', 1); 
 error_reporting(E_ALL);
+session_start();
+
+require_once './components/db_connect.php';
+
+if (!isset($_SESSION['adm'])) {
+    header("Location: home.php");
+    exit;
+}
 
 if ($_GET['id']) {
     $id = $_GET['id'];
