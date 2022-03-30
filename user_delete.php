@@ -4,6 +4,13 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 session_start();
+
+require_once './components/db_connect.php';
+
+if (!isset($_SESSION['adm'])) {
+    header("Location: home.php");
+    exit;
+}
 require_once 'components/db_connect.php';
 // if session is not set this will redirect to login page
 //if (!isset($_SESSION['adm']) && !isset($_SESSION['user'])) {
