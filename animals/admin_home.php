@@ -88,10 +88,10 @@ mysqli_close($connect);
               <a class="nav-link" href="create.php">hf</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="logout.php?logout">Sign Out</a>
+                <a class="nav-link" href="../logout.php?logout">Sign Out</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="login.php">Login</a>
+              <a class="nav-link" href="../login.php">Login</a>
             </li>
           </ul>
         </div>
